@@ -1,5 +1,7 @@
-Event Notify Test Runner
+Friendly Event Notify Test Runner
 ========================
+
+Friendly: has `ENTR_INOTIFY_WORKAROUND` set as default
 
 A utility for running arbitrary commands when files change. Uses [kqueue(2)] or
 [inotify(7)] to avoid polling.  `entr` was written to make rapid feedback and

@@ -1,0 +1,6 @@
+version: "3.6"
+
+services:
+  entr:
+    build: .
+    image: mattipaksula/entr:4.4-friendly
